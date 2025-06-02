@@ -23,12 +23,13 @@ A simple, responsive to-do list application built using HTML, CSS, and JavaScrip
 3. Open `index.html` in a web browser.
 
 ## Folder Structure
-project-folder/
-│
-├── index.html
-├── style.css
-├── script.js
-└── images/
-├── icon.png
-├── checked.png
-└── unchecked.png
+
+
+> Ensure the `images` folder contains the appropriate icons used in the app. Otherwise, update the `src` attributes in the HTML and CSS accordingly.
+
+## Notes
+
+- The `script.js` file uses `localStorage` to persist the task list. Data remains even after refreshing or closing the browser tab.
+- The delete button (`×`) is created dynamically and attached to each task.
+
+
