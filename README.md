@@ -23,6 +23,15 @@ A simple, responsive to-do list application built using HTML, CSS, and JavaScrip
 3. Open `index.html` in a web browser.
 
 ## Folder Structure
+To-Do-List/
+│
+├── index.html
+├── style.css
+├── script.js
+└── images/
+    ├── icon.png
+    ├── checked.png
+    └── unchecked.png
 
 
 > Ensure the `images` folder contains the appropriate icons used in the app. Otherwise, update the `src` attributes in the HTML and CSS accordingly.
